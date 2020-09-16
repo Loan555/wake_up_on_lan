@@ -9,14 +9,14 @@ Item {
 
     RowLayout {
         id: btnLayout
-        x: 92
-        y: 292
+        x: 260
+        y: 268
         width: 300
         height: 100
-        anchors.right: parent.right
-        anchors.rightMargin: 30
         anchors.bottom: parent.bottom
-        anchors.bottomMargin: 30
+        anchors.bottomMargin: 32
+        anchors.right: parent.right
+        anchors.rightMargin: 20
 
         Button {
             id: button
