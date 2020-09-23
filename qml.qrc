@@ -3,5 +3,7 @@
         <file>main.qml</file>
         <file>veiw/FormDK.qml</file>
         <file>veiw/FormDKForm.ui.qml</file>
+        <file>veiw/FormList.qml</file>
+        <file>veiw/FormListForm.ui.qml</file>
     </qresource>
 </RCC>

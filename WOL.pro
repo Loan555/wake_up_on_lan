@@ -1,4 +1,6 @@
 QT += quick core
+QT += widgets
+
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -14,7 +16,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp \
     controller/controller.cpp \
-    controller/controlpconoff.cpp
+    controller/controlpconoff.cpp \
+    controller/wol.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,4 +34,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     controller/controller.h \
-    controller/controlpconoff.h
+    controller/controlpconoff.h \
+    controller/wol.h

@@ -12,4 +12,8 @@ Window {
     anchors.fill: parent
     }
 
+    /*FormList{
+    anchors.fill: parent
+    }*/
+
 }
